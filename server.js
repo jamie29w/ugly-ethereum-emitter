@@ -1,4 +1,5 @@
-const app = require('express')()
+const express = require('express')
+const app = express()
 const port = 3200
 const axios = require('axios')
 const WebSocket = require('ws');
@@ -40,5 +41,7 @@ ws.on('message', function incoming(data) {
         }
       }
 });
+
+app.use('/', express.static('client'))
 
 app.listen(port, () => {console.log(`listening on ${port}`)})
