@@ -13,6 +13,7 @@ window.onload = () => {
       console.log('WebSocket Error: ', err)
     }
 
+ console.log("browserfy ", browserfy);
     const currencyRounder = num => {
         return Math.round(num * 1e2) / 1e2
     }
