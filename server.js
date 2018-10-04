@@ -41,4 +41,9 @@ ws.on('message', function incoming(data) {
       }
 });
 
+// app.use('/', (req, res) => {
+//     // res.set('Content-Type', 'text/html')
+//     res.sendFile(__dirname + '/client/index.html').end(200)
+// })
+
 app.listen(port, () => {console.log(`listening on ${port}`)})
