@@ -19,7 +19,13 @@ window.onload = () => {
 
     socket.onmessage = (e) => {
         let data = JSON.parse(e.data)
-        messagesList.innerHTML += `<li class="received"><span>Last Ethereum Trade Price: $${ currencyRounder(data.lastEthPrice) }</span> <span>Converted USD is $${ currencyRounder(data.priceUsd * data.lastEthPrice) }</span></li>`
+        messagesList.innerHTML = `
+            <li>
+                <span>Timestamp: ${data.momentTime}</span>
+                <span>Last Ethereum Trade Price: $${ currencyRounder(data.lastEthPrice) }</span>
+                <span>Converted USD is $${ currencyRounder(data.priceUsd * data.lastEthPrice) }</span>
+            </li>
+        ` + messagesList.innerHTML
     }
 
     socket.onclose = (e) => {
