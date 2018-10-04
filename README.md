@@ -15,5 +15,5 @@ npm i
 //Spin up the backend
 node server.js
 
-//Open the index.html file in a browser and enjoy!
+//Navigate to localhost:3200 in your preferred browser and enjoy [=
 ```
