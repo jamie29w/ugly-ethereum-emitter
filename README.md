@@ -1,7 +1,7 @@
 # ugly-ethereum-emitter
 An unstyled Ethereum emitter using NodeJS, WebSockets, and Vanilla JS
 
-## To demo this
+## To demo this:
 #### Note: You'll need to install [NodeJS](https://nodejs.org/en/) to run this app.
 ```
 //Clone this repository
