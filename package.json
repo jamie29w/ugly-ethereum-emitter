@@ -1,7 +1,8 @@
 {
-  "name": "new-ws-ticker",
+  "name": "ugly-ethereum-emitter",
   "version": "1.0.0",
-  "description": "",
+  "description": "
+  An unstyled Ethereum emitter using NodeJS, WebSockets, and vanilla JS",
   "main": "server.js",
   "engines": {
     "node": "^8.11.1"
@@ -17,6 +18,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "jamieWdev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamie29w/ugly-ethereum-emitter.git"
+  },
+  "bugs": {
+    "url": "git@github.com:jamie29w/ugly-ethereum-emitter.git"
+  },
+  "homepage": "https://github.com/jamie29w/ugly-ethereum-emitter#readme"
 }
